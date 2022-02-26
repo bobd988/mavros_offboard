@@ -28,10 +28,10 @@ The CXX compiler identification is GNU, found in "/home/demo/catkin_ws/build/CMa
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/demo/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1005f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1005f.dir/build.make CMakeFiles/cmTC_1005f.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9fcbc/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fcbc.dir/build.make CMakeFiles/cmTC_9fcbc.dir/build
 make[1]: Entering directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o
-/usr/lib/ccache/cc   -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include    -v -o CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o
+/usr/lib/ccache/cc   -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include    -v -o CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -71,9 +71,9 @@ GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils fo
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-c' '-o' 'CMakeFiles/cmTC_e1145.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_1005f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1005f.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include   -v -rdynamic CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o -o cmTC_1005f 
+Linking C executable cmTC_9fcbc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fcbc.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include   -v -rdynamic CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o -o cmTC_9fcbc 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -85,9 +85,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-v' '-rdynamic' '-o' 'cmTC_1005f' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdFtWD9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1005f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-v' '-rdynamic' '-o' 'cmTC_1005f' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-v' '-rdynamic' '-o' 'cmTC_9fcbc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmMZH4O.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9fcbc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-v' '-rdynamic' '-o' 'cmTC_9fcbc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -115,10 +115,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/demo/catkin_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_1005f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1005f.dir/build.make CMakeFiles/cmTC_1005f.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_9fcbc/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fcbc.dir/build.make CMakeFiles/cmTC_9fcbc.dir/build]
   ignore line: [make[1]: Entering directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/lib/ccache/cc   -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include    -v -o CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib/ccache/cc   -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include    -v -o CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -158,9 +158,9 @@ Parsed C implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-c' '-o' 'CMakeFiles/cmTC_e1145.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_1005f]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1005f.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/ccache/cc -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include   -v -rdynamic CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o -o cmTC_1005f ]
+  ignore line: [Linking C executable cmTC_9fcbc]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fcbc.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/cc -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include   -v -rdynamic CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o -o cmTC_9fcbc ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -172,13 +172,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-v' '-rdynamic' '-o' 'cmTC_1005f' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdFtWD9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1005f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-I' '/usr/local/cuda-11.4/include' '-v' '-rdynamic' '-o' 'cmTC_9fcbc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmMZH4O.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9fcbc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccdFtWD9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmMZH4O.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -197,7 +197,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1005f] ==> ignore
+    arg [cmTC_9fcbc] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
@@ -218,7 +218,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/local/cuda-11.4/lib64] ==> dir [/usr/local/cuda-11.4/lib64]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_1005f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_9fcbc.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -260,10 +260,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/demo/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_64751/fast && /usr/bin/make  -f CMakeFiles/cmTC_64751.dir/build.make CMakeFiles/cmTC_64751.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2df8a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2df8a.dir/build.make CMakeFiles/cmTC_2df8a.dir/build
 make[1]: Entering directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o
-/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -303,9 +303,9 @@ GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils fo
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/local/cuda-11.4/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.4/lib64/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_06ae8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_64751
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64751.dir/link.txt --verbose=1
-/usr/lib/ccache/c++  -v -rdynamic CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_64751 
+Linking CXX executable cmTC_2df8a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df8a.dir/link.txt --verbose=1
+/usr/lib/ccache/c++  -v -rdynamic CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2df8a 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -317,9 +317,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_64751' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cckDH1hc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_64751 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_64751' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2df8a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5my9wR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2df8a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2df8a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -351,10 +351,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/demo/catkin_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_64751/fast && /usr/bin/make  -f CMakeFiles/cmTC_64751.dir/build.make CMakeFiles/cmTC_64751.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_2df8a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2df8a.dir/build.make CMakeFiles/cmTC_2df8a.dir/build]
   ignore line: [make[1]: Entering directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib/ccache/c++   -v -o CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -394,9 +394,9 @@ Parsed CXX implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/cuda-11.4/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.4/lib64/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_06ae8.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_64751]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64751.dir/link.txt --verbose=1]
-  ignore line: [/usr/lib/ccache/c++  -v -rdynamic CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_64751 ]
+  ignore line: [Linking CXX executable cmTC_2df8a]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df8a.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/c++  -v -rdynamic CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2df8a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -408,13 +408,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/local/cuda-11.4/lib64/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:/usr/local/cuda-11.4/lib64/:./:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_64751' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cckDH1hc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_64751 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2df8a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5my9wR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2df8a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/local/cuda-11.4/lib64/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L/usr/local/cuda-11.4/lib64 -L. -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cckDH1hc.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5my9wR.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -433,7 +433,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_64751] ==> ignore
+    arg [cmTC_2df8a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
@@ -454,7 +454,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/local/cuda-11.4/lib64] ==> dir [/usr/local/cuda-11.4/lib64]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_64751.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_2df8a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -492,13 +492,13 @@ Parsed CXX implicit link information from above output:
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/demo/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a3db0/fast && /usr/bin/make  -f CMakeFiles/cmTC_a3db0.dir/build.make CMakeFiles/cmTC_a3db0.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_525ce/fast && /usr/bin/make  -f CMakeFiles/cmTC_525ce.dir/build.make CMakeFiles/cmTC_525ce.dir/build
 make[1]: Entering directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a3db0.dir/CheckIncludeFile.c.o
-/usr/lib/ccache/cc   -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include  -o CMakeFiles/cmTC_a3db0.dir/CheckIncludeFile.c.o -c /home/demo/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a3db0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3db0.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include  -rdynamic CMakeFiles/cmTC_a3db0.dir/CheckIncludeFile.c.o -o cmTC_a3db0 
+Building C object CMakeFiles/cmTC_525ce.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/cc   -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include  -o CMakeFiles/cmTC_525ce.dir/CheckIncludeFile.c.o -c /home/demo/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_525ce
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_525ce.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include  -rdynamic CMakeFiles/cmTC_525ce.dir/CheckIncludeFile.c.o -o cmTC_525ce 
 make[1]: Leaving directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -506,13 +506,13 @@ make[1]: Leaving directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/demo/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_9fbea/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fbea.dir/build.make CMakeFiles/cmTC_9fbea.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_078b8/fast && /usr/bin/make  -f CMakeFiles/cmTC_078b8.dir/build.make CMakeFiles/cmTC_078b8.dir/build
 make[1]: Entering directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9fbea.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_9fbea.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9fbea
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fbea.dir/link.txt --verbose=1
-/usr/lib/ccache/cc -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_9fbea.dir/CheckFunctionExists.c.o -o cmTC_9fbea  -lpthread 
+Building C object CMakeFiles/cmTC_078b8.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_078b8.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_078b8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_078b8.dir/link.txt --verbose=1
+/usr/lib/ccache/cc -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -I/usr/local/cuda-11.4/include -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_078b8.dir/CheckFunctionExists.c.o -o cmTC_078b8  -lpthread 
 make[1]: Leaving directory '/home/demo/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 

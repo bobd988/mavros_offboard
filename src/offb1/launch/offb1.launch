@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find px4)/launch/posix_sitl.launch">
+        <arg name="vehicle" value="rover"/>
+    </include>
+
+    <node name="offb1" pkg="offb1" type="offb1_node" output="screen"/>
+</launch>
+

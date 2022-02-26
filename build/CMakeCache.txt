@@ -389,10 +389,10 @@ mavros_msgs_DIR:PATH=/opt/ros/melodic/share/mavros_msgs/cmake
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
 //Value Computed by CMake
-offb_BINARY_DIR:STATIC=/home/demo/catkin_ws/build/offb
+offb1_BINARY_DIR:STATIC=/home/demo/catkin_ws/build/offb1
 
 //Value Computed by CMake
-offb_SOURCE_DIR:STATIC=/home/demo/catkin_ws/src/offb
+offb1_SOURCE_DIR:STATIC=/home/demo/catkin_ws/src/offb1
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
