@@ -33,9 +33,9 @@ int main(int argc, char **argv)
     }
 
     geometry_msgs::PoseStamped pose;
-    pose.pose.position.x = 50;
-    pose.pose.position.y = 30;
-    pose.pose.position.z = 10;
+    pose.pose.position.x = 4;
+    pose.pose.position.y = 0;
+    pose.pose.position.z = 2;
 
     //send a few setpoints before starting
     for(int i = 100; ros::ok() && i > 0; --i){
@@ -71,6 +71,9 @@ int main(int argc, char **argv)
             }
         }
 
+        pose.pose.position.x += 1;
+        pose.pose.position.y = 2;
+        pose.pose.position.z = 2;
         local_pos_pub.publish(pose);
 
         ros::spinOnce();
